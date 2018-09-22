@@ -1,0 +1,144 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 95, 95);
+}
+
+/*.content {
+    height: 100vh;
+    width: 70vw;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(248, 248, 248);
+    margin: auto;
+}*/
+
+#test {
+    position: relative;
+    width: 50%;
+    padding-bottom: 50%; /* 1:1 Aspect Ratio */
+    border-radius: 100000px;
+    box-shadow: 0px 0px 10px black;
+}
+#test > canvas {
+    position: absolute;
+}
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.4rem;
+}
+
+.container--center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100vh;
+}
+
+/*
+.kaleidos {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 100000px;
+    overflow: hidden;
+    background-color: rgb(95, 95, 95);
+
+}
+
+.wrapper {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    clip-path: polygon(0 0, 43% 0, 100% 98%, 100% 100%, 98% 100%, 0 43%);
+    transform-origin: 100% 100%;
+}
+
+.elem-1 .wrapper {
+    transform: rotate(0deg);
+}
+.elem-2 .wrapper {
+    transform: rotate(30deg);
+}
+.elem-3 .wrapper {
+    transform: rotate(60deg);
+}
+.elem-4 .wrapper {
+    transform: rotate(90deg);
+}
+.elem-5 .wrapper {
+    transform: rotate(120deg);
+}
+.elem-6 .wrapper {
+    transform: rotate(150deg);
+}
+.elem-7 .wrapper {
+    transform: rotate(180deg);
+}
+.elem-8 .wrapper {
+    transform: rotate(210deg);
+}
+.elem-9 .wrapper {
+    transform: rotate(240deg);
+}
+.elem-10 .wrapper {
+    transform: rotate(270deg);
+}
+.elem-11 .wrapper {
+    transform: rotate(300deg);
+}
+.elem-12 .wrapper {
+    transform: rotate(330deg);
+}
+
+.bg {
+    transform: translate(-25%,-25%);
+
+    width: 500px;
+    height: 500px;
+    background: url(nugget.png) 0 0 repeat;
+    animation: test 20s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        transform: translate3d(-300px, 0, 0);
+    }
+}
+
+@keyframes rotates{
+    0%{
+        transform: translate(-25%,-25%) rotate(0deg);
+    }
+    25%{
+        transform: translate(0%,-25%) rotate(90deg);
+    }
+    50%{
+        transform: translate(0%,0%) rotate(180deg);
+    }
+    75% {
+        transform: translate(25%,0%) rotate(270deg);
+    }
+    100%{
+        transform: translate(25%,25%) rotate(360deg);
+    }
+}
+
+@keyframes test {
+    from{
+        transform: translate(-50%,-50%) rotate(0deg) rotate(0deg) translateX(25%) rotate(0deg);
+    }
+    to{
+        transform: translate(-50%,-50%) rotate(360deg) rotate(360deg) translateX(25%) rotate(-360deg) ;
+    }
+}*/
