@@ -1,7 +1,8 @@
 # kaleidos.js
 
 A dependency free module that allow you to display kaleidoscop image within a html5 canvas.
-**inspired and created from https://codepen.io/soulwire/pen/pwchL**
+
+**This has been inspired and created from https://codepen.io/soulwire/pen/pwchL**
 
 # install :
 npm :
