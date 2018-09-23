@@ -19,9 +19,20 @@ body {
     width: 50%;
     padding-bottom: 50%; /* 1:1 Aspect Ratio */
     border-radius: 100000px;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 30px black;
+    border: none;
+    background-color: black;
+    /* background: radial-gradient(rgb(95, 95, 95), black 75%); */
+    /* background: radial-gradient(black, rgb(95, 95, 95) ); */
+    transition: all 0.1s ease-in-out;
+}
+#test:hover{
+    box-shadow: 0px 0px 0px black;
+    
+    /*background-color: black;*/
 }
 #test > canvas {
+    /* animation: rotates 10s linear infinite; */
     position: absolute;
 }
 
@@ -115,30 +126,21 @@ body {
         transform: translate3d(-300px, 0, 0);
     }
 }
-
+*/
 @keyframes rotates{
     0%{
-        transform: translate(-25%,-25%) rotate(0deg);
-    }
-    25%{
-        transform: translate(0%,-25%) rotate(90deg);
-    }
-    50%{
-        transform: translate(0%,0%) rotate(180deg);
-    }
-    75% {
-        transform: translate(25%,0%) rotate(270deg);
+        transform: rotate(0deg);
     }
     100%{
-        transform: translate(25%,25%) rotate(360deg);
+        transform: rotate(360deg);
     }
-}
+} 
 
-@keyframes test {
+/* @keyframes test {
     from{
         transform: translate(-50%,-50%) rotate(0deg) rotate(0deg) translateX(25%) rotate(0deg);
     }
     to{
         transform: translate(-50%,-50%) rotate(360deg) rotate(360deg) translateX(25%) rotate(-360deg) ;
     }
-}*/
+} */
