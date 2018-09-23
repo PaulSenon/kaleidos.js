@@ -16,10 +16,14 @@ custom :
 # require :
 you may chose, depend on what you are using in your project :
 
-> `import Kaleidos from 'kaleidos.js';`
+> `import Kaleidos from 'kaleidos.js';` 
+
 or
-> `const Kaleidos = require('kaleidos.js');`
+
+> `const Kaleidos = require('kaleidos.js');` 
+
 or if you do it old school, directly insert it in your httm file:
+
 > `<script src="your/path/to/js/files/kaleidos.js"></script>`
 
 # use :
